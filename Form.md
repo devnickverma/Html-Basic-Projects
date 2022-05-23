@@ -84,3 +84,14 @@
 
 ![form](https://user-images.githubusercontent.com/105803143/169855582-1eea925c-b8da-4f10-8cf2-b3256c2fb9a6.PNG)
 
+
+#### Submit Button
+- `<input type="submit">` defines a button for submitting the form data to a form-handler.
+-  form-handler is specified in the form's `action` attribute
+
+
+#### Name Attribute
+- input field must have a name attribute to be submitted
+
+
+

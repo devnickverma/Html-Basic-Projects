@@ -32,8 +32,37 @@
 </html>
 ```
 
+#### Type `checkbox`
+- unique variable name and value `name="fruit1" value="apple"`
+- single variable for single value
+
+```html
+<!DOCTYPE html>
+<html>
+<body >
+<h1>Student Registration Form </h1>
+<pre style="font-family:arial;">
+<form action="/action_page.php" >
+  <label>Favorite Fruits</label>  
+  <input type="checkbox" name="fruit1" value="apple"><label>Apple</label>
+  <input type="checkbox" name="fruit2" value="banana"><label>Banana</label>
+  <input type="checkbox" name="fruit3" value="mango"><label>Mango</label>
+  <input type="checkbox" name="fruit4" value="grapes"><label>Grapes</label>
+  <input type="submit">
+</form>
+</pre>
+</body>
+</html>
+```
+- Output
+![Capturedfsfd](https://user-images.githubusercontent.com/105803143/169856733-893e87d3-be82-468b-a35b-12c86e8b6565.PNG)
+
+
+
 
 #### Type `radio`
+- single variable for many values
+- `name="gender"` `value="male"` `value="female"`
 ```html
 <!DOCTYPE html>
 <html>

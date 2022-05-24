@@ -94,4 +94,41 @@
 - input field must have a name attribute to be submitted
 
 
+#### Form Task 1
+```html
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Student Admission Form</h1>
+  <form action="/action_page.php">
+  <label>First Name:</label><br>
+  <input type="text" name="fname" placeholder="Frist Name" ><br>
+  <label>Last Name:</label><br>
+  <input type="text" name="lname" placeholder="Last Name" ><br>
+  <label>Father's Name:</label><br>
+  <input type="text" name="fathersname" placeholder="Father's Name" ><br>
+  <label>Email:</label><br>
+  <input type="email" name="email" placeholder="Email" ><br>
+  <label>Phone no. :</label><br>
+  <input type="text" name="phoneno." placeholder="Phone no.:" ><br>
+<label>Course :</label><br>
+  <input type="radio" name="course" value="B.tech/Be" ><label>B.tech/Be</label><br>
+  <input type="radio" name="course" value="BSC" ><label>BSC</label><br>
+  <input type="radio" name="course" value="B.COM" ><label>B.COM</label><br>
+  <input type="radio" name="course" value="BA" ><label>BA</label><br>
+  <input type="radio" name="course" value="BCA" ><label>BCA</label><br>
+<label>Facility :</label><br>
+  <input type="checkbox" name="facility1" value="BUS" ><label>BUS</label><br>
+  <input type="checkbox" name="facility2" value="Sport" ><label>Sport</label><br>
+  <input type="checkbox" name="facility3" value="Intership" ><label>Intership</label><br>
+  <input type="checkbox" name="facility4" value="Special Session" ><label>Special Session</label><br>
+<input type="submit">
+</form>
+</body>
+</html>
+```
+
+#### Action Attribute
+- 
 

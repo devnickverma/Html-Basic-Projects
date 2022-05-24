@@ -179,4 +179,64 @@ Form submissions with POST cannot be bookmarked
 `<form action="/action_page.php" novalidate>`
 
 
+#### Form Task 2
+```html
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+ body{
+ 	font-family:arial;
+    font-size:20px;
+ 
+ }
+ #form{
+ display:flex;
+ margin:auto;
+ 
+ }
+ input{
+ 	border-radius:5px;
+ 	margin:8px;
+    background-color:#a6a6a6;
+    border:1px solid #a6a6a6;
+    padding:3px;
+ }
+ 
+ button{
+ background-color:#a6a6a6;
+ border:1px solid #a6a6a6;
+ 
+ border-radius:5px;
+ font-size:14px;
+ padding:10px 15px;
+ text-style:bold;
+ font-weight: bold;
+
+ }
+
+
+ </style>
+</head>
+<body>
+ 
+<h1 >HTML Form</h1>
+<div id="form">
+<form action="/action_page.php" >
+  <label for="fname" >First Name :</label>
+  <input type="text" name="fname" > <br>
+  <label for="lname">Last Name :</label>
+  <input type="text" name="lname"><br> 
+  <br> 
+  <br> 
+  <button type="submit">SUBMIT</button> &nbsp; &nbsp;<button type="reset">RESET</button>
+</form>
+ </div>
+</body>
+</html>
+```
+- Output
+![html email form](https://user-images.githubusercontent.com/105803143/170090313-967d2de6-31cd-4efc-8e21-69915c4907f9.PNG)
+
+
 

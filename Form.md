@@ -184,59 +184,68 @@ Form submissions with POST cannot be bookmarked
 <!DOCTYPE html>
 <html>
 <head>
- <style>
- body{
- 	font-family:arial;
-    font-size:20px;
- 
- }
- #form{
- display:flex;
- margin:auto;
- 
- }
- input{
- 	border-radius:5px;
- 	margin:8px;
-    background-color:#a6a6a6;
-    border:1px solid #a6a6a6;
-    padding:3px;
- }
- 
- button{
- background-color:#a6a6a6;
- border:1px solid #a6a6a6;
- 
- border-radius:5px;
- font-size:14px;
- padding:10px 15px;
- text-style:bold;
- font-weight: bold;
+    <style>
+        body{
+            font-family:arial;
+            font-size:20px;
 
- }
+        }
 
+        input{
+            border-radius:5px;
+            background-color:#a6a6a6;
+            border:1px solid #a6a6a6;
+            padding:3px;
+        }
 
- </style>
+        button{
+            border-radius:5px;
+            background-color:#a6a6a6;
+            border:1px solid #a6a6a6;
+            font-size:14px;         
+            padding:10px 15px;
+            font-weight: bold;
+
+        }
+    </style>
 </head>
 <body>
- 
-<h1 >HTML Form</h1>
-<div id="form">
-<form action="/action_page.php" >
-  <label for="fname" >First Name :</label>
-  <input type="text" name="fname" > <br>
-  <label for="lname">Last Name :</label>
-  <input type="text" name="lname"><br> 
-  <br> 
-  <br> 
-  <button type="submit">SUBMIT</button> &nbsp; &nbsp;<button type="reset">RESET</button>
-</form>
- </div>
+
+    <h1>HTML Form</h1>
+
+    <form action="/action_page.php" method="post">
+        <table>
+            <tr>
+                <td> <label>First Name:</label> </td>
+                <td> <input type="text" name="fname"  ></td>        
+            </tr> 
+            <tr>
+                <td> <label>Last Name:</label> </td>
+                <td> <input type="text" name="lname"  ></td>        
+            </tr>
+            <tr>
+                <td> <label>Date of Birth:</label> </td>
+                <td> <input type="text" name="dob" ></td>        
+            </tr>
+            <tr>
+                <td> <label>Email id:</label> </td>
+                <td>  <input type="email" name="email"  ></td>        
+            </tr>
+            <tr>
+                <td> <label>Mobile Number:</label> </td>
+                <td>  <input type="text" name="mobileno"  ></td>        
+            </tr>
+        </table>
+        <br><br>
+        <button type="submit">SUBMIT</button>&nbsp;&nbsp;<button type="reset">RESET</button>     
+    </form>
+
 </body>
 </html>
 ```
 - Output
-![html email form](https://user-images.githubusercontent.com/105803143/170090313-967d2de6-31cd-4efc-8e21-69915c4907f9.PNG)
+![form task 2](https://user-images.githubusercontent.com/105803143/170230027-20bcf8b6-bae1-4651-b2f2-3769959945ff.PNG)
+
 
 
 

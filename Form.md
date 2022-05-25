@@ -247,5 +247,67 @@ Form submissions with POST cannot be bookmarked
 ![form task 2](https://user-images.githubusercontent.com/105803143/170230027-20bcf8b6-bae1-4651-b2f2-3769959945ff.PNG)
 
 
+#### Select Field In Form
+- `<select>` element defines a drop-down list
+- `<option>` elements defines an option that can be selected
+- By default, the first item in the drop-down list is selected
+- `<select name="cars" size="3">` attribute to specify the number of visible values
+- `<select  name="cars" multiple>` multiple attribute to allow the user to select more than one value
+```html
+<form action="/action_page.php">  
+  <select  name="cars" multiple>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+  <input type="submit">
+</form>
+```
+- Output
+![fdfdf](https://user-images.githubusercontent.com/105803143/170276839-8d3eeb80-3edf-4e1c-a924-78991b7360e6.PNG)
 
 
+#### `<textarea>` element defines a multi-line input field (a text area)
+- The `rows` attribute specifies the visible number of lines in a text area.
+- The `cols` attribute specifies the visible width of a text area.
+
+```html
+<form action="/action_page.php">
+  <textarea name="message" rows="5" cols="23">The cat was playing in the garden.</textarea>
+  <br><br>
+  <input type="submit">
+</form>
+```
+- Output
+![textarea](https://user-images.githubusercontent.com/105803143/170277447-3702fc25-1996-401e-a0d3-93400d718646.PNG)
+
+#### Other Input Type
+```html
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+```
+#### 25 May 22 Task 
+- Above list try
+- Create this
+https://www.iaccessworld.com/wp-content/uploads/edd/2014/11/student-form.png

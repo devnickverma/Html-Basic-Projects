@@ -307,7 +307,46 @@ Form submissions with POST cannot be bookmarked
 <input type="url">
 <input type="week">
 ```
-#### 25 May 22 Task 
-- Above list try
+
+#### Readonly Attribute
+- readonly attribute specifies that an input field is read-only `readonly=""` or `readonly`
+- `<input type="text" id="fname" name="fname" value="John" readonly>`
+
+#### Disabled Attribute
+- disabled attribute specifies that an input field should be disabled
+- A disabled input field is unusable and un-clickable
+- The value of a disabled input field will not be sent when submitting the form
+- `<input type="text" id="lname" name="lname" value="Doe" disabled>`
+
+#### size Attribute
+- size attribute specifies the visible width, in characters, of an input field.
+- The default value for size is 20
+
+#### maxlength Attribute
+- The input maxlength attribute specifies the maximum number of characters allowed in an input field.
+- `minlength="6" maxlength="10"`
+
+
+#### Multiple Attribute
+- The input multiple attribute specifies that the user is allowed to enter more than one value in an input field.
+- The multiple attribute works with the following input types: email, and file.
+
+Example
+```
+A file upload field that accepts multiple values:
+
+<form>
+  <label for="files">Select files:</label>
+  <input type="file" id="files" name="files" multiple>
+</form>
+````
+
+
+#### 1 June 22 Task
+
+
 - Create this
 https://www.iaccessworld.com/wp-content/uploads/edd/2014/11/student-form.png
+
+
+

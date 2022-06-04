@@ -350,24 +350,51 @@ A file upload field that accepts multiple values:
 https://www.iaccessworld.com/wp-content/uploads/edd/2014/11/student-form.png
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+h1{
+     color:#7f7f7f;
+     background-color:#c6d9f1;
+     padding:30px;
+     width:100%;
+}
+form{
+	padding:30px;
+     width:100%;
+     background-color:#d9d9d9;
+}
+input.submit{
+            background-color:#defdb2;
+            border:1px solid #a9ca6b;
+            padding:5px 9px;
+            border-radius:5px;
+}
+input.reset{
+            background-color:#ffafae;
+            border:1px solid #858585;
+            padding:5px 9px;
+            border-radius:5px;
+}
+</style>
+</head>
 <body>
 <h1>Student</h1>
 <form action="/action_page.php" >
     <table>
      <tr>
        <td>StudentId</td>
-       <td><input type="text" name="studentid"                value"studentid" required></td>
+       <td><input type="text" name="studentid" value"studentid" required ></td>
      </tr>
      <tr>
        <td>First Name</td>
-       <td><input type="text" name="fname"                    value"fname" required></td>
+       <td><input type="text" name="fname" value"fname" required></td>
      </tr>
      <tr>
        <td>Last Name</td>
-       <td><input type="text" name="lname"                    value"lname" required></td>
+       <td><input type="text" name="lname" value"lname" required></td>
      </tr>
      <td>DOB</td>
-       <td><input type="date" name="dob"                      value"dob" required></td>
+       <td><input type="date" name="dob"value"dob" required></td>
      </tr>
      <td>Gender</td>
        <td>
@@ -408,11 +435,13 @@ https://www.iaccessworld.com/wp-content/uploads/edd/2014/11/student-form.png
        <td><input type="text" name="fullname"                    value"fullname" required></td>
      </tr>
     </table>
-    <input type="submit">
-    <input type="reset">
-</form> 
+    <input type="submit" class="submit">&nbsp;&nbsp;
+    <input type="reset" class="reset">
+</form>
 </body>
 </html>
+
+
 
 
 

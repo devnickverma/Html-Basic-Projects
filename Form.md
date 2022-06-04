@@ -345,8 +345,58 @@ A file upload field that accepts multiple values:
 #### 1 June 22 Task
 
 
+
 - Create this
 https://www.iaccessworld.com/wp-content/uploads/edd/2014/11/student-form.png
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Student</h1>
+<form action="/action_page.php" >
+    <table>
+     <tr>
+       <td>StudentId</td>
+       <td><input type="text" name="studentid"                value"studentid"></td>
+     </tr>
+     <tr>
+       <td>First Name</td>
+       <td><input type="text" name="fname"                    value"fame"></td>
+     </tr>
+     <tr>
+       <td>Last Name</td>
+       <td><input type="text" name="lname"                    value"lname"></td>
+     </tr>
+     <td>DOB</td>
+       <td><input type="date" name="dob"                      value"dob"></td>
+     </tr>
+     <td>Gender</td>
+       <td>
+       <select name="gender">
+       <option value="male">Male</option>
+       <option value="female">Female</option>
+       </select>
+       </td>
+     </tr>
+     <tr>
+       <td>Address</td>
+       <td><input type="address" name="address"                  value"address"></td>
+     </tr>
+     <tr>
+       <td>City</td>
+       <td><input type="text" name="city"                     value"city"></td>
+     </tr>
+     <tr>
+       <td>State</td>
+       <td><input type="text" name="state"                value"state"></td>
+     </tr>
+    </table>
+    <input type="submit">
+    <input type="reset">
+</form> 
+
+</body>
+</html>
 
 
 

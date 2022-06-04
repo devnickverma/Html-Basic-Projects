@@ -348,7 +348,6 @@ A file upload field that accepts multiple values:
 
 - Create this
 https://www.iaccessworld.com/wp-content/uploads/edd/2014/11/student-form.png
-
 <!DOCTYPE html>
 <html>
 <body>
@@ -357,22 +356,22 @@ https://www.iaccessworld.com/wp-content/uploads/edd/2014/11/student-form.png
     <table>
      <tr>
        <td>StudentId</td>
-       <td><input type="text" name="studentid"                value"studentid"></td>
+       <td><input type="text" name="studentid"                value"studentid" required></td>
      </tr>
      <tr>
        <td>First Name</td>
-       <td><input type="text" name="fname"                    value"fame"></td>
+       <td><input type="text" name="fname"                    value"fname" required></td>
      </tr>
      <tr>
        <td>Last Name</td>
-       <td><input type="text" name="lname"                    value"lname"></td>
+       <td><input type="text" name="lname"                    value"lname" required></td>
      </tr>
      <td>DOB</td>
-       <td><input type="date" name="dob"                      value"dob"></td>
+       <td><input type="date" name="dob"                      value"dob" required></td>
      </tr>
      <td>Gender</td>
        <td>
-       <select name="gender">
+       <select name="gender" required>
        <option value="male">Male</option>
        <option value="female">Female</option>
        </select>
@@ -380,23 +379,41 @@ https://www.iaccessworld.com/wp-content/uploads/edd/2014/11/student-form.png
      </tr>
      <tr>
        <td>Address</td>
-       <td><input type="address" name="address"                  value"address"></td>
+       <td><input type="address" name="address"                  value"address" required></td>
      </tr>
      <tr>
        <td>City</td>
-       <td><input type="text" name="city"                     value"city"></td>
+       <td><input type="text" name="city"                     value"city" required></td>
      </tr>
      <tr>
        <td>State</td>
-       <td><input type="text" name="state"                value"state"></td>
+       <td>
+       <select name="state" required>
+       <option value="mp">MP</option>
+       <option value="up">UP</option>
+       <option value="uk">UK</option>
+       <option value="ap">AP</option>
+       </select>
+     </tr>
+     <tr>
+       <td>Zipcode</td>
+       <td><input type="number" name="zipcode"                value"zipcode" required></td>
+     </tr>
+     <tr>
+       <td>ActiveStatus</td>
+       <td><input type="checkbox" name="activestatus"            value"activestatus"></td>
+     </tr>
+     <tr>
+       <td>Full Name</td>
+       <td><input type="text" name="fullname"                    value"fullname" required></td>
      </tr>
     </table>
     <input type="submit">
     <input type="reset">
 </form> 
-
 </body>
 </html>
+
 
 
 
